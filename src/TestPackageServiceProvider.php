@@ -2,9 +2,9 @@
 
 namespace Jt782\TestPackage;
 
+use Jt782\TestPackage\Commands\TestPackageCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Jt782\TestPackage\Commands\TestPackageCommand;
 
 class TestPackageServiceProvider extends PackageServiceProvider
 {
